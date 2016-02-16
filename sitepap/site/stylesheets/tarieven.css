@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+a {
+	color: #000080;
+}
+
+a:hover {
+	color: #3AABD9;
+
+}
+
+.wrapper {
+	background-color: #f1f1f1;
+	float: left;
+    width: 950px;
+	height: 500px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#lijst1{
+	list-style: none 
+}
+
+.banner{
+    height: 300px;
+	width: 961px;
+    background-image: url(../img/bannertarieven.jpg);
+}
+
+h2 {
+	background-color: #FFCC00;
+	border-bottom: 1px solid #d4d4d4;
+	border-top: 1px solid #d4d4d4;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #ccc;
+	color: #fff;
+	font-size: 1.1em;
+	margin: 12px;
+	padding: 0.3em 1em;
+	text-shadow: #9FBEB9 1px 1px 1px;
+	text-transform: uppercase;
+}
+
+.tariefcontent {
+	width: 600px;
+	height: 410px;
+	float: left;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #FFCC00;
+	border: 1px solid #000000;
+	box-shadow: 3px 3px 3px #ccc;
+}
+
+caption {
+	font-weight: bold;
+	margin-bottom: .5em;
+	
+}
+
+th, td {
+	font-size: .875em;
+	padding: .5em .75em;
+}
+
+th {
+	color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+td {
+	border: 1px solid #000000;
+	background-color: #FFD400;
+}
+
+.contactinfo {
+	width: 250px;
+	height: 410px;
+	float: right;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.tekstcontact {
+	font-weight: bold;
+}
+
+#altcontact {
+	margin-top: 40px;
+
+}

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+        font-family: "Palatino Linotype", Palatino, serif;
+        font-size: 14px;
+        background-color: #FFFFFF;
+        background-image: url(../img/background.png);
+}
+
+#container {
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #D9D9D9;
+        padding: 15px;
+		border-radius: 10px;
+        
+}
+
+.menu {
+        background-color: #FFCC00;
+        background: linear-gradient(top, #FFCC00,#FFE00);
+        background: -ms-linear-gradient(top,  #FFCC00,#FFE00);
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFCC00), to(#FFE00));
+        background: -moz-linear-gradient(top,  #FFCC00,#FFE00);
+        font-family: arial;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 960px;
+}
+
+.menu ul li {
+        margin-left: 19px;
+		padding-top: 5px;
+		float: left;
+        text-align: center;
+        list-style-type: none;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+		height: 30px;
+		width: 200px;
+		text-shadow: 1px 1px #7b7b7b;
+}
+
+.menu ul li:hover {
+        background-color: #FFFFFF;
+        background: linear-gradient(top, #F2F2F2,#FFFFFF);
+        background: -ms-linear-gradient(top,  #F2F2F2,#FFFFFF);
+        background: -webkit-gradient(linear, left top, left bottom, from(#F2F2F2), to(#FFFFFF));
+        background: -moz-linear-gradient(top,  #F2F2F2,#FFFFFF);
+        color: #000000;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+		text-shadow: 1px 1px #7b7b7b;
+}
+
+.content {
+        background: #FFFFFF;
+        float: left;
+        width: 600px;
+		height: 500px;
+        text-align: left;
+        padding: 5px;
+        border-radius: 5px;
+}
+
+#sidebar {
+        float: right;
+        width: 300px;
+		height: 500px;
+        background: #FFFFFF;
+        border-radius: 5px;
+}
+
+footer {
+        border-top: 1px solid #000000;
+        clear: both;
+}

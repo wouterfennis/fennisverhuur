@@ -1,0 +1,10 @@
+Server:
+46.182.218.243
+OF
+ftp.fennisverhuur.nl
+
+Username:
+fenni81
+
+Password:
+gkx2zlqnax

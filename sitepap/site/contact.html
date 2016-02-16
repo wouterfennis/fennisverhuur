@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Trouwauto verhuur rond Hilversum - Contact</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="stylesheets/base.css" />
+		<link rel="stylesheet" href="stylesheets/contact.css" />
+		<script type="text/javascript" src="javascripts/validate.js"></script>
+		<meta name="robots" content="index, follow">
+		<meta name="keywords" content="trouwauto's, limousines, verhuur, trouwauto huren, trouwen, limo, limosine, hilversum, het gooi, 't gooi, jaguar" />
+		<meta name="description" content="Jaguar verhuur rond Hilversum voor trouwerijen" />
+    </head>
+    <body>
+        <div id="container">
+            <header class="banner" role="banner">
+            </header>
+            
+            <header class="menu">
+                <nav role="navigation">
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="fotos.html"><li>Foto's</li></a>
+                    <a href="tarieven.html"><li>Tarieven</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+                </nav>
+            </header>
+
+            <form method="post" onsubmit="return validateForm();" name="contact_form" action="scripts/form.php"> 
+				<fieldset>
+					<h2 class="contactformulier">Contactformulier</h2>
+					<div class="opmerking">
+					Met dit formulier kunt u direct een mail schrijven.<br>
+					Bij het opgeven van een telefoonnummer kan er sneller contact worden opgenomen
+					</div>
+					<ul id="list">
+						<span id="naamWaarschuwing" class="goed">Geen voornaam ingevuld</span>
+						<li class="subject">
+							<label for="first_name">Voornaam*:</label>
+							<input id="naam" type="text" name="first_name" class="large">
+						</li>
+						<span id="achternaamWaarschuwing" class="goed">Geen achternaam ingevuld</span>
+						<li class="subject">
+							<label for="last_name">Achternaam*:</label>
+							<input id="achternaam" type="text" name="last_name" class="large">
+						</li>
+						<span id="emailWaarschuwing" class="goed">Geen email ingevuld</span>
+						<li class="subject">
+							<label for="email">Email*:</label>
+							<input id="email" type="text" name="email" class="large">
+						</li>
+						<li class="subject">
+							<label for="telephone_number">Telefoonnummer:</label>
+							<input id="telefoonnummer" type="text" name="telephone_number" class="large">
+						</li>
+						<span id="berichtWaarschuwing" class="goed">Geen bericht ingevuld</span>
+						<li class="subject">
+							<label for="message">Uw bericht*:</label>
+							<textarea id="bericht" name="message"></textarea>
+						</li>
+						<li>
+						<input type="submit" name="submit" class="verzenden" value= "Verzenden">
+						</li>
+					</ul>	
+					<p>Velden met een * zijn verplicht</p>
+				</fieldset>
+			</form>
+			
+			<aside class="contactinfo">
+				<h2> Contact </h2>
+				<p><img src="img/mobiel.png" alt="Mobiel" style="vertical-align: middle;">
+				<span class="tekstcontact" style="vertical-align: middle;"> 06 53 671 191</span></p>
+				<img src="img/mail.png" alt="Mail" style="vertical-align: middle;">
+				<span class="tekstcontact" style="vertical-align: middle;"><a href="mailto:info@fennisverhuur.nl" target="_self">info@fennisverhuur.nl</a></span>
+				
+				<p id="altcontact">U kunt ons ook bereiken door het contact-formulier in te vullen</p>
+			</aside>
+            <footer>
+                <p><small>&copy; Copyright 2015. All Rights Reserved.</small></p>
+            </footer>
+        </div>
+    </body>
+</html>

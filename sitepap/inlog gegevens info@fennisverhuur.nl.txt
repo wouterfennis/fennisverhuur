@@ -1,0 +1,7 @@
+inlog email info@fennisverhuur.nl
+
+gebruiksernaam: informatie@fennisverhuur.nl
+wachtwoord: Jaguar12!
+
+pop3 mail.fennisverhuur.nl
+smtp mail.fennisverhuur.nl
